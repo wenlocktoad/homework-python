@@ -1,0 +1,9 @@
+moviecost = int(input('Enter cost:'))
+adultsold = int(input('adult ticket sold:'))
+childrensold = int(input(' childrenticket sold:'))
+
+adult_profit = adultsold*10
+children_profit = childrensold*5
+total_profit = adult_profit+children_profit *0.9 - moviecost
+
+print(f'Total:{total_profit}')

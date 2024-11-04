@@ -1,0 +1,6 @@
+Pi = 3.14
+radius = int(input(' Enter circle radius: '))
+area = Pi * radius ** 2
+perimeter = 2 * Pi * radius
+print(f'area: {area}')
+print(f'perimiter: {perimeter}')
